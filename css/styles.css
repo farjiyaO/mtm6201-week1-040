@@ -1,0 +1,49 @@
+body{
+    background-image: url("../images/pexels-gradienta-7130491.jpg");
+    font-family:'Times New Roman', Times, serif;
+    background-size: 100% 80%;
+    background-repeat: no-repeat;
+}
+h2{
+    color: aliceblue;
+    font-family: fantasy;
+    font-size: 1rem;
+}
+img{
+    width: 100%;
+    border: 1px solid lightblue;
+}
+
+.card{
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: row-reverse;
+    width: 70%;
+    margin: 0 auto; 
+    margin-top: 8%;
+}
+.content{
+    background-color: aliceblue;
+    width: 60%;
+    padding: 10px 25px;
+}
+
+i{
+
+    font-size: 24px;
+}
+.profie-img{
+    padding: 20px 20px 0 20px;
+    width: 40%;    
+}
+footer p{
+    font-size:small;
+}
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background-color:lavender;
+    width: 100%;
+    padding: 8px;
+}
