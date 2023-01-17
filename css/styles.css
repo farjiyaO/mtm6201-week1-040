@@ -1,52 +1,61 @@
+/* sets a background images and font-family for the webpage*/
 body{
     background-image: url("../images/pexels-gradienta-7130491.jpg");
     font-family:'Playfair Display', serif;
     background-size: 100% 80%;
     background-repeat: no-repeat;
 }
+/* adds color and font for the welcome statement */
 h2{
     color: aliceblue;
     font-family: 'Playfair Display';
     font-style: italic;
     font-size: 1.2rem;
 }
-img{
-    width: 100%;
-    border: 1px solid lightblue;
-}
+/* adds designs for the heading*/
 h1{
     font-family:'Playfair Display';
     font-weight: 600;
-
 }
+/* designs the card that holds the infos */
 .card{
     background-color: aliceblue;
     display: flex;
     flex-direction: row-reverse;
     width: 70%;
     margin: 0 auto; 
-    margin-top: 2%;
+    margin-top: 3%;
 }
 .content{
     background-color: aliceblue;
     width: 60%;
     padding: 10px 25px;
 }
+/* adds line-height and margin for the list*/
 dt{
-    line-height: 18px;
+    line-height: 15px;
 }
 dd{
     margin-bottom: 15px;
 }
-i{
-    font-size: 24px;
+/* increazes the icons size*/
+.icon{
+    color: lightskyblue;
+    text-align: center;
+    font-size: 28px;
+
+}
+/* adds design for the profile picture */
+img{
+    width: 100%;
+    border: 1px solid lightblue;
 }
 .profie-img{
     padding: 20px 25px 0 15px;
     width: 40%;
-    margin: auto 0;
-       
+    margin: auto 0;      
 }
+/* makes the footer fixed and styles the texts */
 footer p{
     font-size:small;
 }
