@@ -1,6 +1,6 @@
 /* sets a background images and font-family for the webpage*/
 body{
-    background-image: url("../images/pexels-gradienta-7130491.jpg");
+    background-image: url("../images/background.jpg");
     font-family:'Playfair Display', serif;
     background-size: 100% 80%;
     background-repeat: no-repeat;
