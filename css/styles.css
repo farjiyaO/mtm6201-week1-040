@@ -24,7 +24,7 @@ h1{
     flex-direction: row-reverse;
     width: 70%;
     margin: 0 auto; 
-    margin-top: 3%;
+    margin-top: 2%;
 }
 .content{
     background-color: aliceblue;
@@ -43,7 +43,6 @@ dd{
     color: lightskyblue;
     text-align: center;
     font-size: 28px;
-
 }
 /* adds design for the profile picture */
 img{
